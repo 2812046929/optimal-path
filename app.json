@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/floor1/floor1",
+    "path/floor1path/floor1path",
+    "path/enlarge_floor1/seasoning/seasoning",
+    "path/enlarge_floor1/water/water",
+    "path/enlarge_floor1/pet/pet",
+    "path/enlarge_floor1/meat/meat",
+    "path/enlarge_floor1/paper/paper",
+    "path/enlarge_floor1/grain/grain",
+    "path/enlarge_floor1/seafood/seafood",
+    "path/enlarge_floor1/beauty/beauty",
+    "path/enlarge_floor1/fruit/fruit",
+    "path/enlarge_floor1/snack/snack"
+],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

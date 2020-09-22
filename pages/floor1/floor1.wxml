@@ -1,0 +1,10 @@
+<view class="cells">
+  <view class="item" wx:for="{{list}}" wx:key="id" bindtap="addTopurchased" data-index="{{ index }}">
+    <image src="{{item.image}}" mode="aspectFill"/>
+    <view class="meta">
+      <text class="{{ item.chosen == true ?'active':'name' }}">{{item.name}}</text>
+      <icon type="clear" size="25" catchtap="removeGood"  data-index="{{ index }}"/>
+    </view>
+  </view>
+</view>
+<button bindtap="checkthepath">查看路径</button>

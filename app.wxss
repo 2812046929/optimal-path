@@ -1,0 +1,41 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.grids{
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-left: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  }
+.grids view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.333333%;
+  height: 250rpx;
+  border-right: 1rpx solid #eee;
+  border-top: 1rpx solid #eee;
+  box-sizing: border-box;
+}
+.grids .item image{
+    width: 245rpx;
+    height: 245rpx;
+}
+.grids .item text{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  color: #888;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+button{
+  margin: 30rpx;
+  flex:1
+}

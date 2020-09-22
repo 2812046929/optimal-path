@@ -1,0 +1,7 @@
+<canvas
+  type="2d"
+  id="canvas"
+  style="width: 375px; height: 667px;"
+></canvas>
+
+

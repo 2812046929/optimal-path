@@ -1,0 +1,6 @@
+<canvas
+  type="2d"
+  id="canvas"
+  style="width: 750rpx ; height:1200rpx;"
+  bindtap="enlargeTheLayout"
+></canvas>
